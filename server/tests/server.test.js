@@ -130,4 +130,8 @@ describe('DELETE /todos/:id', () => {
       .expect(404)
       .end(done)
   })
+
+describe('PATCH /todos/:id', () => {
+
+})
 })
