@@ -6,6 +6,7 @@ const _ = require('lodash')
 const { mongoose } = require('./db/mongoose')
 const { Todo }  = require('./models/todo')
 const { User } = require('./models/user')
+require('./config/config')
 
 const app = express()
 
