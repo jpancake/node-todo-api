@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da0435af-b9d4-41d9-a86b-c9bc3dc82c69" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/models/user.js" afterPath="$PROJECT_DIR$/server/models/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/tests/server.test.js" afterPath="$PROJECT_DIR$/server/tests/server.test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="-25">
               <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
               <folding>
                 <element signature="e#809#1031#0" expanded="false" />
@@ -82,7 +81,7 @@
       <file leaf-file-name="seed.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/tests/seed/seed.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="574">
               <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
               <folding>
                 <element signature="e#533#687#0" expanded="false" />
@@ -91,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.test.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/tests/server.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="284" column="4" lean-forward="true" selection-start-line="284" selection-start-column="4" selection-end-line="284" selection-end-column="4" />
+            <state relative-caret-position="386">
+              <caret line="299" column="29" lean-forward="false" selection-start-line="299" selection-start-column="29" selection-end-line="299" selection-end-column="29" />
               <folding>
                 <element signature="e#407#1327#0" expanded="false" />
                 <element signature="e#1359#1570#0" expanded="false" />
@@ -122,6 +121,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>String</find>
+      <find>set</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,9 +147,9 @@
         <option value="$PROJECT_DIR$/server/middleware/authenticate.js" />
         <option value="$PROJECT_DIR$/playground/hashing.js" />
         <option value="$PROJECT_DIR$/server/tests/seed/seed.js" />
-        <option value="$PROJECT_DIR$/server/tests/server.test.js" />
         <option value="$PROJECT_DIR$/server/server.js" />
         <option value="$PROJECT_DIR$/server/models/user.js" />
+        <option value="$PROJECT_DIR$/server/tests/server.test.js" />
       </list>
     </option>
   </component>
@@ -393,12 +393,12 @@
       <workItem from="1489884877806" duration="23117000" />
       <workItem from="1490300331217" duration="3121000" />
       <workItem from="1490305922981" duration="2843000" />
-      <workItem from="1490316814270" duration="18566000" />
+      <workItem from="1490316814270" duration="19501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56259000" />
+    <option name="totallyTimeSpent" value="57194000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -694,32 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/tests/seed/seed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-          <folding>
-            <element signature="e#533#687#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/tests/server.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="284" column="4" lean-forward="true" selection-start-line="284" selection-start-column="4" selection-end-line="284" selection-end-column="4" />
-          <folding>
-            <element signature="e#407#1327#0" expanded="false" />
-            <element signature="e#1359#1570#0" expanded="false" />
-            <element signature="e#1606#2153#0" expanded="false" />
-            <element signature="e#1645#1835#0" expanded="false" />
-            <element signature="e#2192#2976#0" expanded="false" />
-            <element signature="e#3013#4506#0" expanded="false" />
-            <element signature="e#4541#5043#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -735,10 +709,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
+        <state relative-caret-position="-25">
           <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
           <folding>
             <element signature="e#809#1031#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/tests/seed/seed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <element signature="e#533#687#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/tests/server.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="299" column="29" lean-forward="false" selection-start-line="299" selection-start-column="29" selection-end-line="299" selection-end-column="29" />
+          <folding>
+            <element signature="e#407#1327#0" expanded="false" />
+            <element signature="e#1359#1570#0" expanded="false" />
+            <element signature="e#1606#2153#0" expanded="false" />
+            <element signature="e#1645#1835#0" expanded="false" />
+            <element signature="e#2192#2976#0" expanded="false" />
+            <element signature="e#3013#4506#0" expanded="false" />
+            <element signature="e#4541#5043#0" expanded="false" />
           </folding>
         </state>
       </provider>
